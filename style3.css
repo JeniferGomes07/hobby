@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagemhobby3.jpg);
+  }
+  header {
+    text-align: center;
+    padding: 8px 0;
+    color: aliceblue;
+  }
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 8px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .beneficios {
+  background-color: rgba(216, 218, 240, 0.849);
+   border-radius: 20px;
+   overflow: scroll;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 45%;
+  }
+  .card {
+    width: 45%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #ccc;
+  }
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  .card-content {
+    padding: 10px;
+  }
+
+  
+
+.floating-button {
+  position: fixed;
+  bottom: 35px;
+  right: 50px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
+  cursor: pointer;
+}
+
+.floating-button i {
+  font-size: 53px;
+  text-align: center;
+}
+
+.floating-button:hover {
+  background-color: #000000;
+}
+
+.like,
+.share {
+    font-size: 16px;
+    cursor: pointer;
+    color: rgb(122, 112, 255);
+    
+}

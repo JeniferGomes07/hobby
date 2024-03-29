@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(imagemhobby2.jpg);
+}
+
+header {
+    text-align: center;
+    color: #b6d6ff;
+}
+
+hr {
+    margin-bottom: 20px;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 8px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.beneficios,
+.series {
+    flex: 1;
+    margin-right: 20px;
+   
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px; 
+    background-color: rgba(227, 238, 248, 0.699);
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add,
+.like,
+.share {
+    font-size: 16px;
+    cursor: pointer;
+    color: red;
+}
+
+
+ 
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .benefits {
+    flex: 1;
+    width: 200px;
+    height: 450px;
+    overflow: scroll;
+    background-color: rgba(216, 218, 240, 0.849);
+  }
+
+
+
+
+
+
+
+  
+
+  .floating-button {
+    position: fixed;
+    bottom: 35px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+  }
+  
+  .floating-button i {
+    font-size: 53px;
+    text-align: center;
+  }
+  
+  .floating-button:hover {
+    background-color: #000000;
+  }
